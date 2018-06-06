@@ -1,0 +1,57 @@
+body {
+    background-image: url('../imgs/bg.png');
+    font-size: 13px !important;
+}
+
+.print-page {
+    width: 800px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 12px;
+    padding: 20px;
+    min-height: 800px;
+}
+
+.print-table {
+    border-collapse: collapse;
+    width: 750px;
+    margin: 15px auto;
+    font-size: 12px;
+}
+
+.print-table tr td, .print-table tr th {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.left-block {
+    width: 300px;
+    float: left;
+    margin-left: 15px;
+}
+
+.right-block {
+    width: 400px;
+    float: left;
+}
+
+.blocks-text {
+    float: left;
+    margin: 10px;
+}
+
+.print-button {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 0 10px;
+    overflow: hidden;
+}
+
+.btn {
+    float: right;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #222222;
+}
