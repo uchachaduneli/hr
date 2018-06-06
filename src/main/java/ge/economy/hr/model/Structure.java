@@ -3,6 +3,7 @@ package ge.economy.hr.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "structure")
 public class Structure {
     private Integer id;
     private Integer parentId;

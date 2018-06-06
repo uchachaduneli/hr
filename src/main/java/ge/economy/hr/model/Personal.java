@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.sql.Date;
 
 @Entity
+@Table(name = "personal")
 public class Personal {
     private Integer id;
     private Integer organisationId;

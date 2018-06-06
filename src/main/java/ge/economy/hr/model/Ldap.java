@@ -3,6 +3,7 @@ package ge.economy.hr.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "ldap")
 public class Ldap {
     private Integer id;
     private String name;

@@ -1,11 +1,9 @@
 package ge.economy.hr.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "vote")
 public class Vote {
     private Integer id;
     private Integer testId;

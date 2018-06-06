@@ -3,6 +3,7 @@ package ge.economy.hr.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "test")
 public class Test {
     private Integer id;
     private Integer organisationId;
